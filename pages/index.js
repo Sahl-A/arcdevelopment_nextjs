@@ -13,8 +13,7 @@ import CardContent from "@material-ui/core/CardContent";
 // import CallToAction from "../src/ui/CallToAction";
 const CallToAction = dynamic(() => import('../src/ui/CallToAction'));
 
-// import animationData from "../src/animations/landinganimation/data";
-const animationData = dynamic(() => import('../src/animations/landinganimation/data'));
+import animationData from "../src/animations/landinganimation/data";
 
 import ButtonArrow from "../src/ui/ButtonArrow";
 

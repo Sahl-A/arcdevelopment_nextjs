@@ -45,7 +45,7 @@ export default function CustomSoftware(props) {
 
   const documentsOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: documentsAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
@@ -354,7 +354,7 @@ export default function CustomSoftware(props) {
           {/* Image */}
           <Grid item>
             <img
-              src='/assets/roots.svg'
+              src='/assets/root.svg'
               alt="tree with roots extending out"
               height={matchesSM ? "300em" : "450em"}
               width={matchesSM ? "300em" : "450em"}
